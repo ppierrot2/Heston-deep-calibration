@@ -1,12 +1,3 @@
-"""
-The :mod:`ml_utils_ts.calibration` implements methods for hyperparameters optimization relying on the *Hyperopt*
-library (Bayesian optimization or random search). It implements a functional version *bayesian_tuning*
-and a sklearn-style class version *BayesianSearchCV*.
-
-These methods support both time-series data (pandas objects with DatetimeIndex) and standard data
-(array-like or dataframe) depending on the underlying model provided and cross-validation generator used.
-"""
-
 import logging
 from typing import List
 import inspect
