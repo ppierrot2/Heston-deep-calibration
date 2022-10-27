@@ -17,13 +17,6 @@ import tensorflow.keras.backend as K
 from _mcd import monte_carlo_prediction, compute_uncertainty
 
 
-def q_loss(q, y, f):
-    """quantile loss function"""
-    e = (y - f)
-    return K.mean(K.maximum(q * e, (q - 1) * e),
-                  axis=-1)
-
-
 def build_sequential_mlp_class(n_feature=64,
                                num_classes=2,
                                layers=2,
