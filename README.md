@@ -1,6 +1,6 @@
 # Heston-deep-calibration
 
-The study consists in volatility model calibration using and comparing deep learning methods (Feed forward and CNN architecture). 
+This project explore the Heston stochastic volatility model calibration with the deep learning approach (Feed forward, CNN). 
 
 [References]
 - Fang, F., & Oosterlee, C. W. (2009). A Novel Pricing Method for European Options Based on Fourier-Cosine Series Expansions. SIAM Journal on Scientific Computing, 31(2), 826. doi:10.1137/080718061
